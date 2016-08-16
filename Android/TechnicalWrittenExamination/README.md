@@ -1,6 +1,6 @@
 # Android笔试题
 
-### [应用层](Applications/)
+### [应用层](Applications)
 
 ### [框架层](ApplicationFramework)
 

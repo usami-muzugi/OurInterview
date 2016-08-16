@@ -1,5 +1,5 @@
 # Android 面试题
-### [应用层](Applications/)
+### [应用层](Applications)
 
 ### [框架层](ApplicationFramework)
 
