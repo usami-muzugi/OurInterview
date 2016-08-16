@@ -21,8 +21,8 @@
 
 # Android 面试题
 
-### [技术笔试](Android/TechnicalWrittenExamination/README.md)
+### [技术笔试](TechnicalWrittenExamination/README.md)
 
-### [技术面试](Android/TechnicalInterview/README.md)
+### [技术面试](TechnicalInterview/README.md)
 
-### [HR面试](Android/HRInterview/README.md)
+### [HR面试](HRInterview/README.md)

@@ -5,4 +5,4 @@
 
 > 转载请注明出处
 >
-> Version：0.2.5.20160730_release
+> Version：0.2.6.20160730_release
