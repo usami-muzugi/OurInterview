@@ -1,14 +1,11 @@
 # Android笔试题
 
-### Java 部分
+### [应用层](Applications/)
 
-#### [Java 基础](/Android/TechnicalWrittenExamination/Java/Foundation/README.md)
+### [框架层](ApplicationFramework)
 
-#### Java 进阶
+### [类库层](Libraries)
 
-### Android 部分
+### [运行时层](AndroidRuntime)
 
-#### Android 基础
-
-#### Android 进阶
-
+### [内核层](LinuxKernel)

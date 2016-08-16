@@ -26,3 +26,7 @@
 ### [技术面试](TechnicalInterview/README.md)
 
 ### [HR面试](HRInterview/README.md)
+
+# Android 体系架构
+
+![AndroidSystemArchitecture](AndroidSystemArchitecture.jpg)

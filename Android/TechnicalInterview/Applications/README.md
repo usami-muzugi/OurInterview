@@ -1,6 +1,4 @@
-# Android 应用题
-* 待续
+# Android Applications
+### [Activity](Activity)
 
-  > ​
-
-* [第1页](1.md)
+### [Practice](Practice)
