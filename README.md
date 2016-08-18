@@ -1,5 +1,5 @@
 # OurInterview
-全都是面试题，以备不时之需
+本项目以另外的角度来看待面试题，避免题海战术，把面试题中的点融汇到技术中，提倡把技术学精、学通，以不变胜万变。
 
 # Interview Introduction
 
@@ -35,7 +35,7 @@
 
 > 转载请注明出处
 >
-> Version：0.4.9.20160817_release
+> Version：0.5.10.20160818_release
 
 # License
 
