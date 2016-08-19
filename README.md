@@ -35,7 +35,7 @@
 
 > 转载请注明出处
 >
-> Version：0.5.10.20160818_release
+> Version：0.5.11.20160819_release
 
 # License
 
