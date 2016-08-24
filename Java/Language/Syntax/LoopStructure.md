@@ -10,47 +10,11 @@ Java中有三种主要的循环结构：
 
 在Java5中引入了一种主要用于数组的增强型for循环。
 
-## while循环
-
-while是最基本的循环，它的结构为：
-
-```java
-while( 布尔表达式 ) {
-	//循环内容
-}
-```
-
-只要布尔表达式为true，循环体会一直执行下去。
-
-Java 教程
-
-[Java 教程](http://www.runoob.com/java/java-tutorial.html)[Java 简介](http://www.runoob.com/java/java-intro.html)[Java 开发环境配置](http://www.runoob.com/java/java-environment-setup.html)[Java 基础语法](http://www.runoob.com/java/java-basic-syntax.html)[Java 对象和类](http://www.runoob.com/java/java-object-classes.html)[Java 基本数据类型](http://www.runoob.com/java/java-basic-datatypes.html)[Java 变量类型](http://www.runoob.com/java/java-variable-types.html)[Java 修饰符](http://www.runoob.com/java/java-modifier-types.html)[Java 运算符](http://www.runoob.com/java/java-operators.html)[Java 循环结构](http://www.runoob.com/java/java-loop.html)[Java 分支结构](http://www.runoob.com/java/java-if-else-switch.html)[Java Number类](http://www.runoob.com/java/java-number.html)[Java Character类](http://www.runoob.com/java/java-character.html)[Java String类](http://www.runoob.com/java/java-string.html)[Java StringBuffer](http://www.runoob.com/java/java-stringbuffer.html)[Java 数组](http://www.runoob.com/java/java-array.html)[Java 日期时间](http://www.runoob.com/java/java-date-time.html)[Java 正则表达式](http://www.runoob.com/java/java-regular-expressions.html)[Java 方法](http://www.runoob.com/java/java-methods.html)[Java Stream、File、IO](http://www.runoob.com/java/java-files-io.html)[Java Scanner 类](http://www.runoob.com/java/java-scanner-class..html)[Java 异常处理](http://www.runoob.com/java/java-exceptions.html)
-Java 面向对象[Java 继承](http://www.runoob.com/java/java-inheritance.html)[Java Override/Overload](http://www.runoob.com/java/java-override-overload.html)[Java 多态](http://www.runoob.com/java/java-polymorphism.html)[Java 抽象类](http://www.runoob.com/java/java-abstraction.html)[Java 封装](http://www.runoob.com/java/java-encapsulation.html)[Java 接口](http://www.runoob.com/java/java-interfaces.html)[Java 包(package)](http://www.runoob.com/java/java-package.html)
-Java 高级教程[Java 数据结构](http://www.runoob.com/java/java-data-structures.html)[Java 集合框架](http://www.runoob.com/java/java-collections.html)[Java 泛型](http://www.runoob.com/java/java-generics.html)[Java 序列化](http://www.runoob.com/java/java-serialization.html)[Java 网络编程](http://www.runoob.com/java/java-networking.html)[Java 发送邮件](http://www.runoob.com/java/java-sending-email.html)[Java 多线程编程](http://www.runoob.com/java/java-multithreading.html)[Java Applet基础](http://www.runoob.com/java/java-applet-basics.html)[Java 文档注释](http://www.runoob.com/java/java-documentation.html)[Java 实例](http://www.runoob.com/java/java-examples.html)[Java 8 新特性](http://www.runoob.com/java/java8-new-features.html)
-
-← [Java 运算符](http://www.runoob.com/java/java-operators.html)
-
-[Java 分支结构 – if…else/switch](http://www.runoob.com/java/java-if-else-switch.html) →
-
-# Java 循环结构 - for, while 及 do...while
-
-顺序结构的程序语句只能被执行一次。如果您想要同样的操作执行多次,，就需要使用循环结构。
-
-Java中有三种主要的循环结构：
-
-- while循环
-- do…while循环
-- for循环
-
-在Java5中引入了一种主要用于数组的增强型for循环。
-
-------
-
 ### while循环
 
 while是最基本的循环，它的结构为：
 
-```
+```java
 while( 布尔表达式 ) {
 	//循环内容
 }
@@ -114,7 +78,7 @@ break主要用在循环语句或者switch语句中，用来跳出整个语句块
 
 break跳出最里层的循环，并且继续执行该循环下面的语句。
 
-### 语法
+#### 语法
 
 break的用法很简单，就是循环结构中的一条语句：
 
@@ -130,10 +94,11 @@ continue适用于任何循环控制结构中。作用是让程序立刻跳转到
 
 在while或者do…while循环中，程序立即跳转到布尔表达式的判断语句。
 
-### 语法
+#### 语法
 
 continue就是循环体中一条简单的语句：
 
 ```java
 continue;
 ```
+
