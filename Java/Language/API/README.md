@@ -1,2 +1,2 @@
 # Java API 类使用
-### [Number]()
+### [Number](Number.md)
