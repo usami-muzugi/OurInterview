@@ -14,7 +14,7 @@
 
 | 序号   | 方法与描述                                    |
 | ---- | ---------------------------------------- |
-| 1    | [xxxValue](#xxxValue)将number对象转换为xxx数据类型的值并返回。 |
+| 1    | [xxxValue](#user-content-xxxValue)将number对象转换为xxx数据类型的值并返回。 |
 | 2    | [compareTo()](http://www.runoob.com/java/number-compareto.html)将number对象与参数比较。 |
 | 3    | [equals()](http://www.runoob.com/java/number-equals.html)判断number对象是否与参数相等。 |
 | 4    | [valueOf()](http://www.runoob.com/java/number-valueof.html)返回一个 Number 对象指定的内置数据类型 |
