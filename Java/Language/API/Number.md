@@ -42,7 +42,7 @@
 | 26   | [toRadians()](http://www.runoob.com/java/number-toradians.html)将角度转换为弧度。 |
 | 27   | [random()](http://www.runoob.com/java/number-random.html)返回一个随机数。 |
 
-### xxxValue() 方法<a name="xxxValue">#</a>
+### <a name="xxxValue">xxxValue() 方法</a>
 
 
 
