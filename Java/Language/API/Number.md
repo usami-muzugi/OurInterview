@@ -14,7 +14,7 @@
 
 | 序号   | 方法与描述                                    |
 | ---- | ---------------------------------------- |
-| 1    | [xxxValue()](http://www.runoob.com/java/number-xxxvalue.html)将number对象转换为xxx数据类型的值并返回。 |
+| 1    | [xxxValue](#xxxValue)将number对象转换为xxx数据类型的值并返回。 |
 | 2    | [compareTo()](http://www.runoob.com/java/number-compareto.html)将number对象与参数比较。 |
 | 3    | [equals()](http://www.runoob.com/java/number-equals.html)判断number对象是否与参数相等。 |
 | 4    | [valueOf()](http://www.runoob.com/java/number-valueof.html)返回一个 Number 对象指定的内置数据类型 |
@@ -42,5 +42,26 @@
 | 26   | [toRadians()](http://www.runoob.com/java/number-toradians.html)将角度转换为弧度。 |
 | 27   | [random()](http://www.runoob.com/java/number-random.html)返回一个随机数。 |
 
+### <span id="xxxValue">xxxValue() 方法</span>
 
+xxxValue() 方法用于将 Number 对象转换为 **xxx ** 数据类型的值并返回。
+
+相关的方法有：
+
+| 类型              | 方法及描述                                  |
+| --------------- | -------------------------------------- |
+| byte            | **byteValue() :**以 byte 形式返回指定的数值。     |
+| abstract double | **doubleValue() :**以 double 形式返回指定的数值。 |
+| abstract float  | **floatValue() :**以 float 形式返回指定的数值。   |
+| abstract int    | **intValue() :**以 int 形式返回指定的数值。       |
+| abstract long   | **longValue() :**以 long 形式返回指定的数值。     |
+| short           | **shortValue() :**以 short 形式返回指定的数值。   |
+
+### 参数
+
+以上各函数不接受任何的参数。
+
+### 返回值
+
+转换为 **xxx** 类型后该对象表示的数值。
 
