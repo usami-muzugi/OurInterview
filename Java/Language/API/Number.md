@@ -24,16 +24,16 @@
 | 8    | [ceil()](#user-content-ceil)对整形变量向左取整，返回类型为double型。 |
 | 9    | [floor()](#user-content-floor)对整型变量向右取整。返回类型为double类型。 |
 | 10   | [rint()](#user-content-rint)返回与参数最接近的整数。返回类型为double。 |
-| 11   | [round()](http://www.runoob.com/java/number-round.html)返回一个最接近的int、long型值。 |
-| 12   | [min()](http://www.runoob.com/java/number-min.html)返回两个参数中的最小值。 |
-| 13   | [max()](http://www.runoob.com/java/number-max.html)返回两个参数中的最大值。 |
-| 14   | [exp()](http://www.runoob.com/java/number-exp.html)返回自然数底数e的参数次方。 |
-| 15   | [log()](http://www.runoob.com/java/number-log.html)返回参数的自然数底数的对数值。 |
-| 16   | [pow()](http://www.runoob.com/java/number-pow.html)返回第一个参数的第二个参数次方。 |
-| 17   | [sqrt()](http://www.runoob.com/java/number-sqrt.html)求参数的算术平方根。 |
-| 18   | [sin()](http://www.runoob.com/java/number-sin.html)求指定double类型参数的正弦值。 |
-| 19   | [cos()](http://www.runoob.com/java/number-cos.html)求指定double类型参数的余弦值。 |
-| 20   | [tan()](http://www.runoob.com/java/number-tan.html)求指定double类型参数的正切值。 |
+| 11   | [round()](#user-content-round)返回一个最接近的int、long型值。 |
+| 12   | [min()](#user-content-min)返回两个参数中的最小值。   |
+| 13   | [max()](#user-content-max)返回两个参数中的最大值。   |
+| 14   | [exp()](#user-content-exp)返回自然数底数e的参数次方。 |
+| 15   | [log()](#user-content-log)返回参数的自然数底数的对数值。 |
+| 16   | [pow()](#user-content-pow)返回第一个参数的第二个参数次方。 |
+| 17   | [sqrt()](#user-content-sqrt)求参数的算术平方根。   |
+| 18   | [sin()](#user-content-sin)求指定double类型参数的正弦值。 |
+| 19   | [cos()](#user-content-cos)求指定double类型参数的余弦值。 |
+| 20   | [tan()](#user-content-tan)求指定double类型参数的正切值。 |
 | 21   | [asin()](http://www.runoob.com/java/number-asin.html)求指定double类型参数的反正弦值。 |
 | 22   | [acos()](http://www.runoob.com/java/number-acos.html)求指定double类型参数的反余弦值。 |
 | 23   | [atan()](http://www.runoob.com/java/number-atan.html)求指定double类型参数的反正切值。 |
@@ -275,3 +275,201 @@ double rint(double d)
 #### 返回值
 
 返回 double 类型数组，是最接近参数的整数值。
+
+### <a name="round">round()</a>
+
+rint() 方法返回一个最接近的int、long型值。
+
+#### 语法
+
+该方法有以下几种语法格式：
+
+```java
+long round(double d)
+
+int round(float f)
+```
+
+#### 参数
+
+- **d **-- double 或 float 的原生数据类型
+- **f **-- float 原生数据类型
+
+#### 返回值
+
+返回一个最接近的int、long型值，方法会指定返回的数据类型。
+
+### <a name="min">min()</a>
+
+min() 方法用于返回两个参数中的最小值。
+
+#### 语法
+
+该方法有以下几种语法格式：
+
+```java
+double min(double arg1, double arg2)
+float min(float arg1, float arg2)
+int min(int arg1, int arg2)
+long min(long arg1, long arg2)
+```
+
+#### 参数
+
+该方法接受两个原生数据类型作为参数。
+
+#### 返回值
+
+返回两个参数中的最小值。
+
+### <a name="max">max()</a>
+
+max() 方法用于返回两个参数中的最大值。
+
+#### 语法
+
+该方法有以下几种语法格式：
+
+```java
+double max(double arg1, double arg2)
+float max(float arg1, float arg2)
+int max(int arg1, int arg2)
+long max(long arg1, long arg2)
+```
+
+#### 参数
+
+该方法接受两个原生数据类型作为参数。
+
+#### 返回值
+
+返回两个参数中的最大值。
+
+### <a name="exp">exp()</a>
+
+exp() 方法用于返回自然数底数e的参数次方。
+
+#### 语法
+
+该方法有以下几种语法格式：
+
+```java
+double exp(double d)
+```
+
+#### 参数
+
+- **d** -- 任何原生数据类型。
+
+#### 返回值
+
+返回自然数底数e的参数次方。
+
+### <a name="log">log()</a>
+
+log() 方法用于返回参数的自然数底数的对数值。
+
+#### 语法
+
+```java
+double log(double d)
+```
+
+#### 参数
+
+- **d** -- 任何原生数据类型。
+
+#### 返回值
+
+返回参数的自然数底数的对数值。
+
+### <a name="pow">pow()</a>
+
+pow() 方法用于返回第一个参数的第二个参数次方。
+
+#### 语法
+
+```java
+double pow(double base, double exponent)
+```
+
+#### 参数
+
+- **base** -- 任何原生数据类型。
+- **exponent** -- 任何原生数据类型。
+
+#### 返回值
+
+返回第一个参数的第二个参数次方。
+
+### <a name="sqrt">sqrt()</a>
+
+sqrt() 方法用于返回参数的算术平方根。
+
+#### 语法
+
+```java
+double sqrt(double d)
+```
+
+#### 参数
+
+- **d **-- 任何原生数据类型。
+
+#### 返回值
+
+返回参数的算术平方根。
+
+### <a name="sin">sin()</a>
+
+sin() 方法用于返回指定double类型参数的正弦值。
+
+#### 语法
+
+```java
+double sin(double d)
+```
+
+#### 参数
+
+- **d **-- 任何原生数据类型。
+
+#### 返回值
+
+返回指定double类型参数的正弦值。
+
+### <a name="cos">cos()</a>
+
+cos() 方法用于返回指定double类型参数的余弦值。
+
+#### 语法
+
+```java
+double cos(double d)
+```
+
+#### 参数
+
+- **d **-- 任何原生数据类型。
+
+#### 返回值
+
+返回指定double类型参数的余弦值。
+
+### <a name="tan">tan()</a>
+
+tan() 方法用于返回指定double类型参数的正切值。
+
+#### 语法
+
+```java
+double tan(double d)
+```
+
+#### 参数
+
+- **d **-- 任何原生数据类型。
+
+#### 返回值
+
+返回指定double类型参数的正切值。
