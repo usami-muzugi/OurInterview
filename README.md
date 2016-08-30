@@ -33,7 +33,7 @@
 
 # Version
 
-> 0.5.23.20160829_release
+> 0.5.24.20160830_release
 
 # License
 
