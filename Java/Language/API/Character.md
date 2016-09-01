@@ -64,11 +64,157 @@ char c = test('x');
 
 | 序号   | 方法与描述                                    |
 | ---- | ---------------------------------------- |
-| 1    | [isLetter()](http://www.runoob.com/java/character-isletter.html)是否是一个字母 |
-| 2    | [isDigit()](http://www.runoob.com/java/character-isdigit.html)是否是一个数字字符 |
-| 3    | [isWhitespace()](http://www.runoob.com/java/character-iswhitespace.html)是否一个空格 |
-| 4    | [isUpperCase()](http://www.runoob.com/java/character-isuppercase.html)是否是大写字母 |
-| 5    | [isLowerCase()](http://www.runoob.com/java/character-islowercase.html)是否是小写字母 |
-| 6    | [toUpperCase()](http://www.runoob.com/java/character-touppercase.html)指定字母的大写形式 |
-| 7    | [toLowerCase](http://www.runoob.com/java/character-tolowercase.html)()指定字母的小写形式 |
-| 8    | [toString](http://www.runoob.com/java/character-tostring.html)()返回字符的字符串形式，字符串的长度仅为1 |
+| 1    | [isLetter()](#user-content-isLetter)是否是一个字母 |
+| 2    | [isDigit()](#user-content-isDigit)是否是一个数字字符 |
+| 3    | [isWhitespace()](#user-content-isWhitespace)是否一个空格 |
+| 4    | [isUpperCase()](#user-content-isUpperCase)是否是大写字母 |
+| 5    | [isLowerCase()](#user-content-isLowerCase)是否是小写字母 |
+| 6    | [toUpperCase()](#user-content-toUpperCase)指定字母的大写形式 |
+| 7    | [toLowerCase()](#user-content-toLowerCase)指定字母的小写形式 |
+| 8    | [toString()](#user-content-toString)返回字符的字符串形式，字符串的长度仅为1 |
+
+
+
+# <a name="compareTo">isLetter()</a>
+
+isLetter() 方法用于判断指定字符是否为字母。
+
+### 语法
+
+```java
+boolean isLetter(char ch)
+```
+
+### 参数
+
+- **ch** -- 要测试的字符。
+
+### 返回值
+
+如果字符为字母，则返回 true；否则返回 false。
+
+# <a name="isDigit">isDigit()</a>
+
+isDigit() 方法用于判断指定字符是否为数字。
+
+### 语法
+
+```java
+boolean isDigit(char ch)
+```
+
+### 参数
+
+- **ch** -- 要测试的字符。
+
+### 返回值
+
+如果字符为数字，则返回 true；否则返回 false。
+
+# <a name="isWhitespace">isWhitespace()</a>
+
+isWhitespace() 方法用于判断指定字符是否为空白字符，空白符包含：空格、tab键、换行符。
+
+### 语法
+
+```java
+boolean isWhitespace(char ch)
+```
+
+### 参数
+
+- **ch** -- 要测试的字符。
+
+### 返回值
+
+如果字符为空白字符，则返回 true；否则返回 false。
+
+# <a name="isLowerCase">isLowerCase()</a>
+
+isLowerCase() 方法用于判断指定字符是否为小写字母。
+
+### 语法
+
+```java
+boolean isLowerCase(char ch)
+```
+
+### 参数
+
+- **ch** -- 要测试的字符。
+
+### 返回值
+
+如果字符为小写，则返回 true；否则返回 false。
+
+# <a name="isUpperCase">isUpperCase()</a>
+
+isUpperCase() 方法用于判断指定字符是否为大写字母。
+
+### 语法
+
+```java
+boolean isUpperCase(char ch)
+```
+
+### 参数
+
+- **ch** -- 要测试的字符。
+
+### 返回值
+
+如果字符为大写，则返回 true；否则返回 false。
+
+# <a name="toLowerCase">toLowerCase()</a>
+
+toLowerCase() 方法用于将大写字符转换为小写。
+
+### 语法
+
+```java
+char toLowerCase(char ch)
+```
+
+### 参数
+
+- **ch** -- 要转换的字符。
+
+### 返回值
+
+返回转换后字符的小写形式，如果有的话；否则返回字符本身。
+
+# <a name="toUpperCase">toUpperCase()</a>
+
+toUpperCase() 方法用于将小写字符转换为大写。
+
+### 语法
+
+```java
+char toUpperCase(char ch)
+```
+
+### 参数
+
+- **ch** -- 要转换的字符。
+
+### 返回值
+
+返回转换后字符的大写形式，如果有的话；否则返回字符本身。
+
+# <a name="toString">toString()</a>
+
+toString() 方法用于返回一个表示指定 char 值的 String 对象。结果是长度为 1 的字符串，仅由指定的 char 组成。
+
+### 语法
+
+```java
+String toString(char ch)
+```
+
+### 参数
+
+- **ch** -- 要转换的字符。
+
+### 返回值
+
+返回指定 char 值的字符串表示形式。
