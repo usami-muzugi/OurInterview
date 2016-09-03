@@ -95,26 +95,26 @@ System.out.println(fs);
 | 8      | [static String copyValueOf(char[] data, int offset, int count)](#user-content-copyValueOf)返回指定数组中表示该字符序列的 String。 |
 | 9      | [boolean endsWith(String suffix)](#user-content-endsWith)测试此字符串是否以指定的后缀结束。 |
 | 10     | [boolean equals(Object anObject)](#user-content-equals)将此字符串与指定的对象比较。 |
-| 11     | [boolean equalsIgnoreCase(String anotherString)](http://www.runoob.com/java/java-string-equalsignorecase.html)将此 String 与另一个 String 比较，不考虑大小写。 |
-| 12     | [byte[\] getBytes()](http://www.runoob.com/java/java-string-getbytes.html) 使用平台的默认字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。 |
-| 13     | [byte[\] getBytes(String charsetName)](http://www.runoob.com/java/java-string-getbytes.html)使用指定的字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。 |
-| 14     | [void getChars(int srcBegin, int srcEnd, char[\] dst, int dstBegin)](http://www.runoob.com/java/java-string-getchars.html)将字符从此字符串复制到目标字符数组。 |
-| 15     | [int hashCode()](http://www.runoob.com/java/java-string-hashcode.html)返回此字符串的哈希码。 |
-| 16     | [int indexOf(int ch)](http://www.runoob.com/java/java-string-indexof.html)返回指定字符在此字符串中第一次出现处的索引。 |
-| 17     | [int indexOf(int ch, int fromIndex)](http://www.runoob.com/java/java-string-indexof.html)返回在此字符串中第一次出现指定字符处的索引，从指定的索引开始搜索。 |
-| 18     | [int indexOf(String str)](http://www.runoob.com/java/java-string-indexof.html) 返回指定子字符串在此字符串中第一次出现处的索引。 |
-| 19     | [int indexOf(String str, int fromIndex)](http://www.runoob.com/java/java-string-indexof.html)返回指定子字符串在此字符串中第一次出现处的索引，从指定的索引开始。 |
-| 20     | [String intern()](http://www.runoob.com/java/java-string-intern.html) 返回字符串对象的规范化表示形式。 |
-| 21     | [int lastIndexOf(int ch)](http://www.runoob.com/java/java-string-lastindexof.html) 返回指定字符在此字符串中最后一次出现处的索引。 |
-| 22     | [int lastIndexOf(int ch, int fromIndex)](http://www.runoob.com/java/java-string-lastindexof.html)返回指定字符在此字符串中最后一次出现处的索引，从指定的索引处开始进行反向搜索。 |
-| 23     | [int lastIndexOf(String str)](http://www.runoob.com/java/java-string-lastindexof.html)返回指定子字符串在此字符串中最右边出现处的索引。 |
-| 24     | [int lastIndexOf(String str, int fromIndex)](http://www.runoob.com/java/java-string-lastindexof.html) 返回指定子字符串在此字符串中最后一次出现处的索引，从指定的索引开始反向搜索。 |
-| 25     | [int length()](http://www.runoob.com/java/java-string-length.html)返回此字符串的长度。 |
-| 26     | [boolean matches(String regex)](http://www.runoob.com/java/java-string-matches.html)告知此字符串是否匹配给定的正则表达式。 |
-| 27     | [boolean regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)](http://www.runoob.com/java/java-string-regionmatches.html)测试两个字符串区域是否相等。 |
-| 28     | [boolean regionMatches(int toffset, String other, int ooffset, int len)](http://www.runoob.com/java/java-string-regionmatches.html)测试两个字符串区域是否相等。 |
-| 29     | [String replace(char oldChar, char newChar)](http://www.runoob.com/java/java-string-replace.html)返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所有 oldChar 得到的。 |
-| 30     | [String replaceAll(String regex, String replacement](http://www.runoob.com/java/java-string-replaceall.html)使用给定的 replacement 替换此字符串所有匹配给定的正则表达式的子字符串。 |
+| 11     | [boolean equalsIgnoreCase(String anotherString)](#user-content-equalsIgnoreCase)将此 String 与另一个 String 比较，不考虑大小写。 |
+| 12     | [byte getBytes()](#user-content-getBytes) 使用平台的默认字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。 |
+| 13     | [byte getBytes(String charsetName)](#user-content-getBytes)使用指定的字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。 |
+| 14     | [void getChars(int srcBegin, int srcEnd, char dst, int dstBegin)](#user-content-getChars)将字符从此字符串复制到目标字符数组。 |
+| 15     | [int hashCode()](#user-content-hashCode)返回此字符串的哈希码。 |
+| 16     | [int indexOf(int ch)](#user-content-indexOf)返回指定字符在此字符串中第一次出现处的索引。 |
+| 17     | [int indexOf(int ch, int fromIndex)](#user-content-indexOf)返回在此字符串中第一次出现指定字符处的索引，从指定的索引开始搜索。 |
+| 18     | [int indexOf(String str)](#user-content-indexOf) 返回指定子字符串在此字符串中第一次出现处的索引。 |
+| 19     | [int indexOf(String str, int fromIndex)](#user-content-indexOf)返回指定子字符串在此字符串中第一次出现处的索引，从指定的索引开始。 |
+| 20     | [String intern()](#user-content-intern) 返回字符串对象的规范化表示形式。 |
+| 21     | [int lastIndexOf(int ch)](#user-content-lastIndexOf) 返回指定字符在此字符串中最后一次出现处的索引。 |
+| 22     | [int lastIndexOf(int ch, int fromIndex)](#user-content-lastIndexOf)返回指定字符在此字符串中最后一次出现处的索引，从指定的索引处开始进行反向搜索。 |
+| 23     | [int lastIndexOf(String str)](#user-content-lastIndexOf)返回指定子字符串在此字符串中最右边出现处的索引。 |
+| 24     | [int lastIndexOf(String str, int fromIndex)](#user-content-lastIndexOf) 返回指定子字符串在此字符串中最后一次出现处的索引，从指定的索引开始反向搜索。 |
+| 25     | [int length()](#user-content-length)返回此字符串的长度。 |
+| 26     | [boolean matches(String regex)](#user-content-matches)告知此字符串是否匹配给定的正则表达式。 |
+| 27     | [boolean regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)](#user-content-regionMatches)测试两个字符串区域是否相等。 |
+| 28     | [boolean regionMatches(int toffset, String other, int ooffset, int len)](#user-content-regionMatches)测试两个字符串区域是否相等。 |
+| 29     | [String replace(char oldChar, char newChar)](#user-content-replace)返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所有 oldChar 得到的。 |
+| 30     | [String replaceAll(String regex, String replacement](#user-content-replaceAll)使用给定的 replacement 替换此字符串所有匹配给定的正则表达式的子字符串。 |
 | 31     | [String replaceFirst(String regex, String replacement)](http://www.runoob.com/java/java-string-replacefirst.html) 使用给定的 replacement 替换此字符串匹配给定的正则表达式的第一个子字符串。 |
 | 32     | [String[\] split(String regex)](http://www.runoob.com/java/java-string-split.html)根据给定正则表达式的匹配拆分此字符串。 |
 | 33     | [String[\] split(String regex, int limit)](http://www.runoob.com/java/java-string-split.html)根据匹配给定的正则表达式来拆分此字符串。 |
@@ -295,3 +295,287 @@ public boolean equals(Object anObject)
 
 如果给定对象与字符串相等，则返回 true；否则返回 false。
 
+# <a name="equalsIgnoreCase">equalsIgnoreCase()</a>
+
+equalsIgnoreCase() 方法用于将字符串与指定的对象比较，不考虑大小写。
+
+### 语法
+
+```java
+public boolean equalsIgnoreCase(String anotherString)
+```
+
+### 参数
+
+- **anObject** -- 与字符串进行比较的对象。
+
+### 返回值
+
+如果给定对象与字符串相等，则返回 true；否则返回 false。
+
+# <a name="getBytes">getBytes()</a>
+
+getBytes() 方法有两种形式：
+
+- **getBytes(String charsetName):**使用平台的默认字符集将字符串编码为 byte 序列，并将结果存储到一个新的 byte 数组中。
+- **getBytes(): **使用平台的默认字符集将字符串编码为 byte 序列，并将结果存储到一个新的 byte 数组中。
+
+### 语法
+
+```java
+public byte[] getBytes(String charsetName) throws UnsupportedEncodingException
+
+public byte[] getBytes()
+```
+
+### 参数
+
+- **charsetName** -- 支持的字符集名称。
+
+### 返回值
+
+返回 byte 数组。
+
+# <a name="getChars">getChars()</a>
+
+getChars() 方法将字符从字符串复制到目标字符数组。
+
+### 语法
+
+```java
+public void getChars(int srcBegin, int srcEnd, char[] dst,  int dstBegin)
+```
+
+### 参数
+
+- **srcBegin** -- 字符串中要复制的第一个字符的索引。
+- **srcEnd** -- 字符串中要复制的最后一个字符之后的索引。
+- **dst** -- 目标数组。
+- **dstBegin** -- 目标数组中的起始偏移量。
+
+### 返回值
+
+没有返回值，但会抛出 IndexOutOfBoundsException 异常。
+
+# <a name="hashCode">hashCode()</a>
+
+hashCode() 方法用于返回字符串的哈希码。
+
+字符串对象的哈希码根据以下公式计算：
+
+```java
+s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
+```
+
+使用 int 算法，这里 s[i] 是字符串的第 i 个字符，n 是字符串的长度，^ 表示求幂。空字符串的哈希值为 0。
+
+### 语法
+
+```java
+public int hashCode()
+```
+
+### 参数
+
+- 无。
+
+### 返回值
+
+返回对象的哈希码值。
+
+# <a name="indexOf">indexOf()</a>
+
+indexOf() 方法有以下四种形式：
+
+- **public int indexOf(int ch):** 返回指定字符在字符串中第一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+- **public int indexOf(int ch, int fromIndex):** 返回指定字符在字符串中第一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+- **int indexOf(String str):** 返回指定字符在字符串中第一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+- **int indexOf(String str, int fromIndex):** 返回指定字符在字符串中第一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+
+### 语法
+
+```java
+public int indexOf(int ch )
+
+public int indexOf(int ch, int fromIndex)
+
+int indexOf(String str)
+
+int indexOf(String str, int fromIndex)
+```
+
+### 参数
+
+- **ch** -- 字符。
+- **fromIndex** -- 开始搜索的索引位置。
+- **str** -- 要搜索的子字符串。
+
+### 返回值
+
+指定子字符串在字符串中第一次出现处的索引，从指定的索引开始。
+
+# <a name="intern">intern()</a>
+
+intern() 方法返回字符串对象的规范化表示形式。
+
+它遵循以下规则：对于任意两个字符串 s 和 t，当且仅当 s.equals(t) 为 true 时，s.intern() == t.intern() 才为 true。
+
+### 语法
+
+```java
+public String intern()
+```
+
+### 参数
+
+- 无
+
+### 返回值
+
+一个字符串，内容与此字符串相同，但一定取自具有唯一字符串的池。
+
+# <a name="lastIndexOf">lastIndexOf()</a>
+
+lastIndexOf() 方法有以下四种形式：
+
+- **public int lastIndexOf(int ch):** 返回指定字符在此字符串中最后一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+- **public int lastIndexOf(int ch, int fromIndex):** 返返回指定字符在此字符串中最后一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+- **public int lastIndexOf(String str):** 返回指定字符在此字符串中最后一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+- **public int lastIndexOf(String str, int fromIndex):** 返回指定字符在此字符串中最后一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
+
+### 语法
+
+```java
+public int lastIndexOf(int ch)
+
+public int lastIndexOf(int ch, int fromIndex)
+
+public int lastIndexOf(String str)
+
+public int lastIndexOf(String str, int fromIndex)
+```
+
+### 参数
+
+- **ch** -- 字符。
+- **fromIndex** -- 开始搜索的索引位置。
+- **str** -- 要搜索的子字符串。
+
+### 返回值
+
+指定子字符串在字符串中第一次出现处的索引值。
+
+# <a name="length">length()</a>
+
+length() 方法用于返回字符串的长度。
+
+长度等于字符串中 16 位 Unicode 代码单元的数量。
+
+### 语法
+
+```java
+public int length()
+```
+
+### 参数
+
+- 无
+
+### 返回值
+
+返回字符串长度。
+
+# <a name="matches">matches()</a>
+
+matches() 方法用于检测字符串是否匹配给定的正则表达式。
+
+调用此方法的 str.matches(regex) 形式与以下表达式产生的结果完全相同：
+
+```java
+Pattern.matches(regex, str)
+```
+
+### 语法
+
+```java
+public boolean matches(String regex)
+```
+
+### 参数
+
+- **regex** -- 匹配字符串的正则表达式。
+
+### 返回值
+
+在字符串匹配给定的正则表达式时，返回 true。
+
+# <a name="regionMatches">regionMatches()</a>
+
+regionMatches() 方法用于检测两个字符串在一个区域内是否相等。
+
+### 语法
+
+```java
+public boolean regionMatches(int toffset,
+                             String other,
+                             int ooffset,
+                             int len)
+
+public boolean regionMatches(boolean ignoreCase,
+                             int toffset,
+                             String other,
+                             int ooffset,
+                             int len)
+```
+
+### 参数
+
+- **ignoreCase** -- 如果为 true，则比较字符时忽略大小写。
+- **toffset** -- 此字符串中子区域的起始偏移量。
+- **other** -- 字符串参数。
+- **toffset** -- 字符串参数中子区域的起始偏移量。
+- **len** -- 要比较的字符数。
+
+### 返回值
+
+如果字符串的指定子区域匹配字符串参数的指定子区域，则返回 true；否则返回 false。是否完全匹配或考虑大小写取决于 ignoreCase 参数。
+
+# <a name="replace">replace()</a>
+
+replace() 方法通过用 newChar 字符替换字符串中出现的所有 oldChar 字符，并返回替换后的新字符串。
+
+### 语法
+
+```java
+public String replace(char oldChar,
+                      char newChar)
+```
+
+### 参数
+
+- **oldChar** -- 原字符。
+- **newChar** -- 新字符。
+
+### 返回值
+
+替换后生成的新字符串。
+
+# <a name="replaceAll">replaceAll()</a>
+
+replaceAll() 方法使用给定的参数 replacement 替换字符串所有匹配给定的正则表达式的子字符串。
+
+### 语法
+
+```java
+public String replaceAll(String regex,
+                         String replacement)
+```
+
+### 参数
+
+- **regex** -- 匹配此字符串的正则表达式。
+- **newChar** -- 用来替换每个匹配项的字符串。
+
+### 返回值
+
+成功则返回替换的字符串，失败则返回原始字符串。
