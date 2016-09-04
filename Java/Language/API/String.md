@@ -115,22 +115,22 @@ System.out.println(fs);
 | 28     | [boolean regionMatches(int toffset, String other, int ooffset, int len)](#user-content-regionMatches)测试两个字符串区域是否相等。 |
 | 29     | [String replace(char oldChar, char newChar)](#user-content-replace)返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所有 oldChar 得到的。 |
 | 30     | [String replaceAll(String regex, String replacement](#user-content-replaceAll)使用给定的 replacement 替换此字符串所有匹配给定的正则表达式的子字符串。 |
-| 31     | [String replaceFirst(String regex, String replacement)](http://www.runoob.com/java/java-string-replacefirst.html) 使用给定的 replacement 替换此字符串匹配给定的正则表达式的第一个子字符串。 |
-| 32     | [String[\] split(String regex)](http://www.runoob.com/java/java-string-split.html)根据给定正则表达式的匹配拆分此字符串。 |
-| 33     | [String[\] split(String regex, int limit)](http://www.runoob.com/java/java-string-split.html)根据匹配给定的正则表达式来拆分此字符串。 |
-| 34     | [boolean startsWith(String prefix)](http://www.runoob.com/java/java-string-startswith.html)测试此字符串是否以指定的前缀开始。 |
-| 35     | [boolean startsWith(String prefix, int toffset)](http://www.runoob.com/java/java-string-startswith.html)测试此字符串从指定索引开始的子字符串是否以指定前缀开始。 |
-| 36     | [CharSequence subSequence(int beginIndex, int endIndex)](http://www.runoob.com/java/java-string-subsequence.html) 返回一个新的字符序列，它是此序列的一个子序列。 |
-| 37     | [String substring(int beginIndex)](http://www.runoob.com/java/java-string-substring.html)返回一个新的字符串，它是此字符串的一个子字符串。 |
-| 38     | [String substring(int beginIndex, int endIndex)](http://www.runoob.com/java/java-string-substring.html)返回一个新字符串，它是此字符串的一个子字符串。 |
-| 39     | [char[\] toCharArray()](http://www.runoob.com/java/java-string-tochararray.html)将此字符串转换为一个新的字符数组。 |
-| 40     | [String toLowerCase()](http://www.runoob.com/java/java-string-tolowercase.html)使用默认语言环境的规则将此 String 中的所有字符都转换为小写。 |
-| 41     | [String toLowerCase(Locale locale)](http://www.runoob.com/java/java-string-tolowercase.html) 使用给定 Locale 的规则将此 String 中的所有字符都转换为小写。 |
-| 42     | [String toString()](http://www.runoob.com/java/java-string-tostring.html) 返回此对象本身（它已经是一个字符串！）。 |
-| 43     | [String toUpperCase()](http://www.runoob.com/java/java-string-touppercase.html)使用默认语言环境的规则将此 String 中的所有字符都转换为大写。 |
-| 44     | [String toUpperCase(Locale locale)](http://www.runoob.com/java/java-string-touppercase.html)使用给定 Locale 的规则将此 String 中的所有字符都转换为大写。 |
-| 45     | [String trim()](http://www.runoob.com/java/java-string-trim.html)返回字符串的副本，忽略前导空白和尾部空白。 |
-| 46     | [static String valueOf(primitive data type x)](http://www.runoob.com/java/java-string-valueof.html)返回给定data type类型x参数的字符串表示形式。 |
+| 31     | [String replaceFirst(String regex, String replacement)](#user-content-replaceFirst) 使用给定的 replacement 替换此字符串匹配给定的正则表达式的第一个子字符串。 |
+| 32     | [String split(String regex)](#user-content-split)根据给定正则表达式的匹配拆分此字符串。 |
+| 33     | [String split(String regex, int limit)](#user-content-split)根据匹配给定的正则表达式来拆分此字符串。 |
+| 34     | [boolean startsWith(String prefix)](#user-content-startsWith)测试此字符串是否以指定的前缀开始。 |
+| 35     | [boolean startsWith(String prefix, int toffset)](#user-content-startsWith)测试此字符串从指定索引开始的子字符串是否以指定前缀开始。 |
+| 36     | [CharSequence subSequence(int beginIndex, int endIndex)](#user-content-subSequence) 返回一个新的字符序列，它是此序列的一个子序列。 |
+| 37     | [String substring(int beginIndex)](#user-content-substring)返回一个新的字符串，它是此字符串的一个子字符串。 |
+| 38     | [String substring(int beginIndex, int endIndex)](#user-content-substring)返回一个新字符串，它是此字符串的一个子字符串。 |
+| 39     | [char toCharArray()](#user-content-toCharArray)将此字符串转换为一个新的字符数组。 |
+| 40     | [String toLowerCase()](#user-content-toLowerCase)使用默认语言环境的规则将此 String 中的所有字符都转换为小写。 |
+| 41     | [String toLowerCase(Locale locale)](#user-content-toLowerCase) 使用给定 Locale 的规则将此 String 中的所有字符都转换为小写。 |
+| 42     | [String toString()](#user-content-toString) 返回此对象本身（它已经是一个字符串！）。 |
+| 43     | [String toUpperCase()](#user-content-toUpperCase)使用默认语言环境的规则将此 String 中的所有字符都转换为大写。 |
+| 44     | [String toUpperCase(Locale locale)](#user-content-toUpperCase)使用给定 Locale 的规则将此 String 中的所有字符都转换为大写。 |
+| 45     | [String trim()](#user-content-trim)返回字符串的副本，忽略前导空白和尾部空白。 |
+| 46     | [static String valueOf(primitive data type x)](#user-content-valueOf)返回给定data type类型x参数的字符串表示形式。 |
 
 
 
@@ -579,3 +579,242 @@ public String replaceAll(String regex,
 ### 返回值
 
 成功则返回替换的字符串，失败则返回原始字符串。
+
+# <a name="replaceFirst">replaceFirst()</a>
+
+replaceFirst() 方法使用给定的参数 replacement 替换字符串第一个匹配给定的正则表达式的子字符串。
+
+### 语法
+
+```java
+public String replaceFirst(String regex,
+                           String replacement)
+```
+
+### 参数
+
+- **regex** -- 匹配此字符串的正则表达式。
+- **replacement** -- 用来替换第一个匹配项的字符串。
+
+### 返回值
+
+成功则返回替换的字符串，失败则返回原始字符串。
+
+# <a name="split">split()</a>
+
+split() 方法根据匹配给定的正则表达式来拆分字符串。
+
+### 语法
+
+```java
+public String[] split(String regex,
+                      int limit)
+```
+
+### 参数
+
+- **regex** -- 正则表达式分隔符。
+- **limit** -- 分割的份数。
+
+### 返回值
+
+成功则返回替换的字符串，失败则返回原始字符串。
+
+# <a name="startsWith">startsWith()</a>
+
+startsWith() 方法用于检测字符串是否以指定的前缀开始。
+
+### 语法
+
+```java
+public boolean startsWith(String prefix, int toffset)
+
+public boolean startsWith(String prefix)
+```
+
+### 参数
+
+- **prefix** -- 前缀。
+- **toffset** -- 字符串中开始查找的位置。
+
+### 返回值
+
+如果字符串以指定的前缀开始，则返回 true；否则返回 false。
+
+# <a name="subSequence">subSequence()</a>
+
+startsWith() 方法返回一个新的字符序列，它是此序列的一个子序列。
+
+### 语法
+
+```java
+public CharSequence subSequence(int beginIndex, int endIndex)
+```
+
+### 参数
+
+- **beginIndex** -- 起始索引（包括）。
+- **endIndex** -- 结束索引（不包括）。
+
+### 返回值
+
+返回一个新的字符序列，它是此序列的一个子序列。
+
+# <a name="substring">substring()</a>
+
+substring() 方法返回字符串的子字符串。
+
+### 语法
+
+```java
+public String substring(int beginIndex)
+
+public String substring(int beginIndex, int endIndex)
+```
+
+### 参数
+
+- **beginIndex** -- 起始索引（包括）。
+- **endIndex** -- 结束索引（不包括）。
+
+### 返回值
+
+子字符串。
+
+# <a name="toCharArray">toCharArray()</a>
+
+toCharArray() 方法将字符串转换为字符数组。
+
+### 语法
+
+```java
+public char[] toCharArray()
+```
+
+### 参数
+
+- 无
+
+### 返回值
+
+字符数组。
+
+# <a name="toLowerCase">toLowerCase()</a>
+
+toLowerCase() 方法将字符串转换为小写。
+
+### 语法
+
+```java
+public String toLowerCase()
+
+public String toLowerCase(Locale locale)
+```
+
+### 参数
+
+- 无
+
+### 返回值
+
+转换为小写的字符串。
+
+# <a name="toString">toString()</a>
+
+toString() 方法返回此对象本身（它已经是一个字符串）。
+
+### 语法
+
+```java
+public String toString()
+```
+
+### 参数
+
+- 无
+
+### 返回值
+
+字符串本身。
+
+# <a name="toUpperCase">toUpperCase()</a>
+
+toUpperCase() 方法将字符串小写字符转换为大写。
+
+### 语法
+
+```java
+public String toUpperCase()
+
+public String toUpperCase(Locale locale)
+```
+
+### 参数
+
+- 无
+
+### 返回值
+
+字符转换为大写后的字符串。
+
+# <a name="trim">trim()</a>
+
+trim() 方法用于删除字符串的头尾空白符。
+
+### 语法
+
+```java
+public String trim()
+```
+
+### 参数
+
+- 无
+
+### 返回值
+
+删除头尾空白符的字符串。
+
+# <a name="valueOf">valueOf()</a>
+
+valueOf() 方法有以下几种不同形式：
+
+- **valueOf(boolean b):** 返回 boolean 参数的字符串表示形式。.
+- **valueOf(char c):** 返回 char 参数的字符串表示形式。
+- **valueOf(char[] data):** 返回 char 数组参数的字符串表示形式。
+- **valueOf(char[] data, int offset, int count):** 返回 char 数组参数的特定子数组的字符串表示形式。
+- **valueOf(double d):** 返回 double 参数的字符串表示形式。
+- **valueOf(float f):** 返回 float 参数的字符串表示形式。
+- **valueOf(int i):** 返回 int 参数的字符串表示形式。
+- **valueOf(long l):** 返回 long 参数的字符串表示形式。
+- **valueOf(Object obj):** 返回 Object 参数的字符串表示形式。
+
+### 语法
+
+```java
+static String valueOf(boolean b) 
+
+static String valueOf(char c) 
+
+static String valueOf(char[] data) 
+
+static String valueOf(char[] data, int offset, int count) 
+
+static String valueOf(double d) 
+
+static String valueOf(float f) 
+
+static String valueOf(int i)
+
+static String valueOf(long l)
+
+static String valueOf(Object obj) 
+```
+
+### 参数
+
+- 指定类型参数。
+
+### 返回值
+
+删除头尾空白符的字符串。
