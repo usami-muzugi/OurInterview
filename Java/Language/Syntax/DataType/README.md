@@ -36,8 +36,10 @@ char x = 'x';        // 声明变量 x 的值是字符 'x'。
 
 Java语言支持的变量类型有：
 
-- ### [局部变量](LocalVariable.md)
+### [局部变量](LocalVariable.md)
 
-- ### [成员变量](InstanceVariable.md)
+### [成员变量](InstanceVariable.md)
 
-- ### [类变量](ClassVariable.md)
+### [类变量](ClassVariable.md)
+
+### [数组](Array.md)
