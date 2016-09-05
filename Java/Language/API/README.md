@@ -4,3 +4,6 @@
 ### [Character](Character.md)
 
 ### [String](String.md)
+
+### [StringBuffer](StringBuffer.md)
+
