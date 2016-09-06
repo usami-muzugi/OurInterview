@@ -7,3 +7,5 @@
 
 ### [StringBuffer](StringBuffer.md)
 
+### [Date](Date.md)
+
