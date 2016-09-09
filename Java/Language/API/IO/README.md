@@ -120,7 +120,7 @@ end
 end
 ```
 
-> JDK 5 后的版本我们也可以使用 [Java Scanner](http://www.runoob.com/java/java-scanner-class.html) 类来获取控制台的输入。
+> JDK 5 后的版本我们也可以使用 [Java Scanner](/Java/Language/API/Scanner.md) 类来获取控制台的输入。
 
 ## 控制台输出
 

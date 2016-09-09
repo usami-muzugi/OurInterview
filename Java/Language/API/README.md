@@ -13,3 +13,5 @@
 
 ### [IO](IO)
 
+### [Scanner](Scanner.md)
+
