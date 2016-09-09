@@ -12,8 +12,6 @@ Java为I/O提供了强大的而灵活的支持，使其更广泛地应用到文�
 
 但本节讲述最基本的和流与I/O相关的功能。我们将通过一个个例子来学习这些功能。
 
-------
-
 ## 读取控制台输入
 
 Java的控制台输入由System.in完成。
@@ -22,20 +20,18 @@ Java的控制台输入由System.in完成。
 
 下面是创建BufferedReader的基本语法：
 
-```
+```java
 BufferedReader br = new BufferedReader(new 
                       InputStreamReader(System.in));
 ```
 
 BufferedReader对象创建后，我们便可以使用read()方法从控制台读取一个字符，或者用readLine()方法读取一个字符串。
 
-------
-
 ## 从控制台读取多字符输入
 
 从BufferedReader对象读取一个字符要使用read()方法，它的语法如下：
 
-```
+```java
 int read( ) throws IOException
 ```
 
@@ -43,7 +39,7 @@ int read( ) throws IOException
 
 下面的程序示范了用read()方法从控制台不断读取字符直到用户输入"q"。
 
-```
+```java
 // 使用 BufferedReader 在控制台读取字符
 
 import java.io.*;
@@ -79,21 +75,19 @@ c
 q
 ```
 
-------
-
 ## 从控制台读取字符串
 
 从标准输入读取一个字符串需要使用BufferedReader的readLine()方法。
 
 它的一般格式是：
 
-```
+```java
 String readLine( ) throws IOException
 ```
 
 下面的程序读取和显示字符行直到你输入了单词"end"。
 
-```
+```java
 // 使用 BufferedReader 在控制台读取字符
 import java.io.*;
 public class BRReadLines {
@@ -136,7 +130,7 @@ PrintStream 继承了OutputStream类，并且实现了方法write()。这样，w
 
 PrintStream 定义write()的最简单格式如下所示：
 
-```
+```java
 void write(int byteval)
 ```
 
@@ -146,7 +140,7 @@ void write(int byteval)
 
 下面的例子用write()把字符"A"和紧跟着的换行符输出到屏幕：
 
-```
+```java
 import java.io.*;
 
 // 演示 System.out.write().
@@ -168,8 +162,6 @@ A
 
 **注意：**write()方法不经常使用，因为print()和println()方法用起来更为方便。
 
-------
-
 ## 读写文件
 
 如前所述，一个流被定义为一个数据序列。输入流用于从源读取数据，输出流用于向目标写数据。
@@ -180,8 +172,6 @@ A
 
 下面将要讨论的两个重要的流是FileInputStream 和FileOutputStream：
 
-------
-
 ## FileInputStream
 
 该流用于从文件读取数据，它的对象可以用关键字new来创建。
@@ -190,13 +180,13 @@ A
 
 可以使用字符串类型的文件名来创建一个输入流对象来读取文件：
 
-```
+```java
 InputStream f = new FileInputStream("C:/java/hello");
 ```
 
 也可以使用一个文件对象来创建一个输入流对象来读取文件。我们首先得使用File()方法来创建一个文件对象：
 
-```
+```java
 File f = new File("C:/java/hello");
 InputStream f = new FileInputStream(f);
 ```
@@ -213,10 +203,8 @@ InputStream f = new FileInputStream(f);
 
 除了InputStream外，还有一些其他的输入流，更多的细节参考下面链接：
 
-- [ByteArrayInputStream](http://www.runoob.com/java/java-bytearrayinputstream.html)
-- [DataInputStream](http://www.runoob.com/java/java-datainputstream.html)
-
-------
+- [ByteArrayInputStream](ByteArrayInputStream.md)
+- [DataInputStream](DataInputStream.md)
 
 ## FileOutputStream
 
@@ -228,13 +216,13 @@ InputStream f = new FileInputStream(f);
 
 使用字符串类型的文件名来创建一个输出流对象：
 
-```
+```java
 OutputStream f = new FileOutputStream("C:/java/hello") 
 ```
 
 也可以使用一个文件对象来创建一个输出流来写文件。我们首先得使用File()方法来创建一个文件对象：
 
-```
+```java
 File f = new File("C:/java/hello");
 OutputStream f = new FileOutputStream(f);
 ```
@@ -250,14 +238,14 @@ OutputStream f = new FileOutputStream(f);
 
 除了OutputStream外，还有一些其他的输出流，更多的细节参考下面链接：
 
-- [ByteArrayOutputStream](http://www.runoob.com/java/java-bytearrayoutputstream.html)
-- [DataOutputStream](http://www.runoob.com/java/java-dataoutputstream.html)
+- [ByteArrayOutputStream](ByteArrayOutputStream.md)
+- [DataOutputStream](DataOutputStream.md)
 
 ### 实例
 
 下面是一个演示InputStream和OutputStream用法的例子：
 
-```
+```java
 import java.io.*;
 
 public class fileStreamTest{
@@ -290,7 +278,7 @@ public class fileStreamTest{
 
 以上代码由于是二进制写入，可能存在乱码，你可以使用以下代码实例来解决乱码问题：
 
-```
+```java
 //文件名 :fileStreamTest2.java
 import java.io.*;
 
@@ -341,17 +329,13 @@ public class fileStreamTest2{
 }
 ```
 
-------
-
 ## 文件和I/O
 
 还有一些关于文件和I/O的类，我们也需要知道：
 
-- [File Class(类)](http://www.runoob.com/java/java-file.html)
-- [FileReader Class(类)](http://www.runoob.com/java/java-filereader.html)
-- [FileWriter Class(类)](http://www.runoob.com/java/java-filewriter.html)
-
-------
+- [File](File.md)
+- [FileReader](FileReader.md)
+- [FileWriter](FileWriter.md)
 
 ## Java中的目录
 
@@ -364,7 +348,7 @@ File类中有两个方法可以用来创建文件夹：
 
 下面的例子创建 "/tmp/user/java/bin"文件夹：
 
-```
+```java
 import java.io.File;
 
 public class CreateDir {
@@ -381,8 +365,6 @@ public class CreateDir {
 
 **注意：**Java在UNIX和Windows自动按约定分辨文件路径分隔符。如果你在Windows版本的Java中使用分隔符(/) ，路径依然能够被正确解析。
 
-------
-
 ## 读取目录
 
 一个目录其实就是一个File对象，它包含其他文件和文件夹。
@@ -393,7 +375,7 @@ public class CreateDir {
 
 下面展示的例子说明如何使用list()方法来检查一个文件夹中包含的内容：
 
-```
+```java
 import java.io.File;
 
 public class DirList {
