@@ -15,3 +15,4 @@
 
 ### [Scanner](Scanner.md)
 
+### [Exception](Exception.md)
