@@ -6,3 +6,7 @@
 ### [Polymorphic](Polymorphic.md)
 
 ### [AbstractClass](AbstractClass.md)
+
+### [Encapsulation](Encapsulation.md)
+
+### [Interface](Interface.md)
