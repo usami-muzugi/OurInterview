@@ -24,7 +24,7 @@ Java工具包提供了强大的数据结构。在Java中的数据结构主要包
 
 该类在处理一组布尔值的时候非常有用，你只需要给每个值赋值一"位"，然后对位进行适当的设置或清除，就可以对布尔值进行操作了。
 
-## 向量（Vector）
+## [向量（Vector）](Vector.md)
 
 向量（Vector）类和传统数组非常相似，但是Vector的大小能根据需要动态的变化。
 
@@ -34,7 +34,7 @@ Java工具包提供了强大的数据结构。在Java中的数据结构主要包
 
 关于该类的更多信息，[请参见向量(Vector)](http://www.runoob.com/java/java-vector-class.html)
 
-## 栈（Stack）
+## [栈（Stack）](Stack.md)
 
 栈（Stack）实现了一个后进先出（LIFO）的数据结构。
 
