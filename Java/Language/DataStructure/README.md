@@ -32,8 +32,6 @@ Java工具包提供了强大的数据结构。在Java中的数据结构主要包
 
 使用Vector类最主要的好处就是在创建对象的时候不必给对象指定大小，它的大小会根据需要动态的变化。
 
-关于该类的更多信息，[请参见向量(Vector)](http://www.runoob.com/java/java-vector-class.html)
-
 ## [栈（Stack）](Stack.md)
 
 栈（Stack）实现了一个后进先出（LIFO）的数据结构。
