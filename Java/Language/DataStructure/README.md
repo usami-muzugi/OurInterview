@@ -40,9 +40,7 @@ Java工具包提供了强大的数据结构。在Java中的数据结构主要包
 
 当你从栈中取元素的时候，就从栈顶取一个元素。换句话说，最后进栈的元素最先被取出。
 
-关于该类的更多信息，[请参见栈（Stack）](http://www.runoob.com/java/java-stack-class.html)。
-
-## 字典（Dictionary）
+## [字典（Dictionary）](Dictionary.md)
 
 字典（Dictionary） 类是一个抽象类，它定义了键映射到值的数据结构。
 
@@ -50,17 +48,13 @@ Java工具包提供了强大的数据结构。在Java中的数据结构主要包
 
 由于Dictionary类是抽象类，所以它只提供了键映射到值的数据结构，而没有提供特定的实现。
 
-关于该类的更多信息，[请参见字典（ Dictionary）](http://www.runoob.com/java/java-dictionary-class.html)。
-
-## 哈希表（Hashtable）
+## [哈希表（Hashtable）](Hashtable.md)
 
 Hashtable类提供了一种在用户定义键结构的基础上来组织数据的手段。
 
 例如，在地址列表的哈希表中，你可以根据邮政编码作为键来存储和排序数据，而不是通过人名。
 
 哈希表键的具体含义完全取决于哈希表的使用情景和它包含的数据。
-
-关于该类的更多信息，[请参见哈希表（HashTable）](http://www.runoob.com/java/java-hashTable-class.html)。
 
 ## 属性（Properties）
 

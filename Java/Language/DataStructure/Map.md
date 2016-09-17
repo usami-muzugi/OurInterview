@@ -29,7 +29,7 @@ Map接口中键和值一一映射. 可以通过键来获取值。
 
 下面的例子来解释Map的功能
 
-```
+```java
 import java.util.*;
 
 public class CollectionsDemo {
