@@ -56,10 +56,8 @@ Hashtable类提供了一种在用户定义键结构的基础上来组织数据�
 
 哈希表键的具体含义完全取决于哈希表的使用情景和它包含的数据。
 
-## 属性（Properties）
+## [属性（Properties）](Properties.md)
 
 Properties 继承于 Hashtable.Properties 类表示了一个持久的属性集.属性列表中每个键及其对应值都是一个字符串。
 
 Properties 类被许多Java类使用。例如，在获取环境变量时它就作为System.getProperties()方法的返回值。
-
-关于该类的更多信息，[请参见属性（Properties）](http://www.runoob.com/java/java-properties-class.html)。
