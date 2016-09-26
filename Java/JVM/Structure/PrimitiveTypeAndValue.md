@@ -1,4 +1,4 @@
-# 原是类型与值
+# 原始类型与值
 
 Java 虚拟机所支持的原始数据类型包括了数值类型（ Numeric Types）、布尔类型 （ Boolean Type §2.3.4） 和 returnAddress 类型（ §2.3.3） 三类。其中数值类型又分为整型类型（ Integral Types， §2.3.1）和浮点类型（ Floating-Point Types， §2.3.2）两种，其中：
 
