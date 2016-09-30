@@ -18,6 +18,10 @@
 
 ### [浮点算法](FloatingPointArithmetic.md)
 
+### [初始化方法的特殊命名 ](SpecialNamingOfInitializationMethod.md)
+
+### [异常](Abnormal.md)
+
 
 
 
