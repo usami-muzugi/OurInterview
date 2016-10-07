@@ -167,25 +167,60 @@ Java 虚拟机直接支持（译者注：“直接支持”意味着转换时无
 虽然类实例和数组都是对象，但 Java 虚拟机对类实例和数组的创建与操作使用了不同的字节码指令：
 
 * 创建类实例的指令： new
-
 * 创建数组的指令： newarray， anewarray， multianewarray
-
 * 访问类字段（ static 字段，或者称为类变量）和实例字段（非 static 字段，或者成为
   实例变量）的指令： getfield、 putfield、 getstatic、 putstatic
-
 * 把一个数组元素加载到操作数栈的指令： baload、caload、saload、iaload、laload、
   faload、 daload、 aaload
-
 * 将一个操作数栈的值储存到数组元素中的指令： bastore、 castore、 sastore、
   iastore、 fastore、 dastore、 aastore
-
 * 取数组长度的指令： arraylength
-
 * 检查类实例类型的指令： instanceof、 checkcast
 
-  ​
+## 操作数栈管理指令
 
-  ​
+Java 虚拟机提供了一些用于直接操作操作数栈的指令，包括： pop、 pop2、 dup、 dup2、dup_x1、 dup2_x1、 dup_x2、 dup2_x2 和 swap。
+
+## 控制转移指令
+
+控制转移指令可以让 Java 虚拟机有条件或无条件地从指定指令而不是控制转移指令的下一条指令继续执行程序。 控制转移指令包括有：
+
+* 条件分支： ifeq、iflt、ifle、ifne、ifgt、ifge、ifnull、ifnonnull、if_icmpeq、if_icmpne、 if_icmplt, if_icmpgt、 if_icmple、 if_icmpge、 if_acmpeq 和if_acmpne。
+* 复合条件分支： tableswitch、 lookupswitch
+* 无条件分支： goto、 goto_w、 jsr、 jsr_w、 ret
+
+在 Java 虚拟机中有专门的指令集用来处理 int 和 reference 类型的条件分支比较操作，为了可以无需明显标识一个实体值是否 null，也有专门的指令用来检测 null 值。
+boolean 类型、 byte 类型、 char 类型和 short 类型的条件分支比较操作，都使用 int 类型的比较指令来完成，而对于 long 类型、 float 类型和 double 类型的条件分支比较操作， 则会先执行相应类型的比较运算指令（ §2.11.3），运算指令会返回一个整形值到操作数栈中，随后再执行 int 类型的条件分支比较操作来完成整个分支跳转。由于各种类型的比较最终都会转化为 int 类型的比较操作，基于 int 类型比较的这种重要性， Java 虚拟机提供了非常丰富的 int类型的条件分支指令。
+所有 int 类型的条件分支转移指令进行的都是有符号的比较操作。
+
+## 方法调用和返回指令
+
+以下四条指令用于方法调用：
+invokevirtual 指令用于调用对象的实例方法，根据对象的实际类型进行分派（虚方法分派），这也是 Java 语言中最常见的方法分派方式。
+invokeinterface 指令用于调用接口方法，它会在运行时搜索一个实现了这个接口方法的对象，找出适合的方法进行调用。
+invokespecial 指令用于调用一些需要特殊处理的实例方法，包括实例初始化方法、私有方法和父类方法。
+invokestatic 指令用于调用类方法（ static 方法）。
+而方法返回指令则是根据返回值的类型区分的，包括有 ireturn（当返回值是 boolean、byte、 char、 short 和 int 类型时使用）、 lreturn、 freturn、 dreturn 和 areturn，另外还有一条 return 指令供声明为 void 的方法、实例初始化方法、类和接口的类初始化方法使用。
+
+## 抛出异常
+
+在程序中显式抛出异常的操作会由 athrow 指令实现，除了这种情况，还有别的异常会在其他 Java 虚拟机指令检测到异常状况时由虚拟机自动抛出。
+
+## 同步
+
+Java 虚拟机可以支持方法级的同步和方法内部一段指令序列的同步，这两种同步结构都是使用管程（ Monitor）来支持的。
+
+方法级的同步是隐式，即无需通过字节码指令来控制的，它实现在方法调用和返回操作之中。虚拟机可以从方法常量池中的方法表结构（ method_info Structure）中的 ACC_SYNCHRONIZED 访问标志区分一个方法是否同步方法。当方法调用时，调用指令将会检查方法的 ACC_SYNCHRONIZED 访问标志是否被设置，如果设置了，执行线程将先持有管程，然后再执行方法，最后再方法完成（无论是正常完成还是非正常完成）时释放管程。在方法执行期间，执行线程持有了管程，其他任何线程都无法再获得同一个管程。如果一个同步方法执行期间抛出了异常，并且在方法内部无法处理此异常，那这个同步方法所持有的管程将在异常抛到同步方法之外时自动释放。
+
+
+同步一段指令集序列通常是由 Java 语言中的 synchronized 块来表示的， Java 虚拟机的指令集中有 monitorenter 和 monitorexit 两条指令来支持 synchronized 关键字的语义，正确实现 synchronized 关键字需要编译器与 Java 虚拟机两者协作支持。
+结构化锁定（ Structured Locking）是指在方法调用期间每一个管程退出都与前面的管程进入相匹配的情形。因为无法保证所有提交给 Java 虚拟机执行的代码都满足结构化锁定，所以Java 虚拟机允许（但不强制要求）通过以下两条规则来保证结构化锁定成立。假设 T 代表一条线程， M 代表一个管程的话：
+1. T 在方法执行时持有管程 M 的次数必须与 T 在方法完成（包括正常和非正常完成）时释放管程 M 的次数相等。
+2. 找方法调用过程中，任何时刻都不会出现线程 T 释放管程 M 的次数比 T 持有管程 M 次数多的情况。
+   请注意，在同步方法调用时自动持有和释放管程的过程也被认为是在方法调用期间发生。
+
+
+
 
 
 
