@@ -16,3 +16,5 @@ Java 虚拟机是为了支持 Java 语言而的设计的。 Oracle 的 JDK 包�
 ### [接收参数](ReceivingParameters.md)
 
 ### [方法调用](MethodCall.md)
+
+### [使用类实例](UseClassInstance.md)
