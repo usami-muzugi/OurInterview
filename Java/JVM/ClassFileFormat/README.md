@@ -9,3 +9,4 @@
 
 ### [ClassFile 结构](ClassFileStructure.md)
 
+### [描述符和签名](DescriptorAndSignature)
