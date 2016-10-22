@@ -39,3 +39,5 @@ u1 info[];
 ### [CONSTANT_Class_info 结构](ConstantClassInfo.md)
 
 ### [CONSTANT_Fieldref_info， CONSTANT_Methodref_info 和CONSTANT_InterfaceMethodref_info 结构 ](ConstantFieldrefMethodrefInterfaceMethodrefInfo.md)
+
+### [CONSTANT_String_info 结构](ConstantStringInfo.md)
