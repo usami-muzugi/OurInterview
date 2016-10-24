@@ -43,3 +43,5 @@ u1 info[];
 ### [CONSTANT_String_info 结构](ConstantStringInfo.md)
 
 ### [CONSTANT_Integer_info 和 CONSTANT_Float_info 结构](ConstantIntegerFloatInfo.md)
+
+### [CONSTANT_Long_info 和 CONSTANT_Double_info 结构](ConstantLongDoubleInfo.md)
