@@ -47,3 +47,5 @@ u1 info[];
 ### [CONSTANT_Long_info 和 CONSTANT_Double_info 结构](ConstantLongDoubleInfo.md)
 
 ### [CONSTANT_NameAndType_info 结构](ConstantNameAndTypeInfo.md)
+
+### [CONSTANT_Utf8_info 结构](ConstantUtf8Info.md)
