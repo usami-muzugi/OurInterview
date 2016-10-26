@@ -51,3 +51,5 @@ u1 info[];
 ### [CONSTANT_Utf8_info 结构](ConstantUtf8Info.md)
 
 ### [CONSTANT_MethodHandle_info 结构](ConstantMethodHandleInfo.md)
+
+### [CONSTANT_MethodType_info 结构](ConstantMethodTypeInfo.md)
