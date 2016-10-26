@@ -53,3 +53,5 @@ u1 info[];
 ### [CONSTANT_MethodHandle_info 结构](ConstantMethodHandleInfo.md)
 
 ### [CONSTANT_MethodType_info 结构](ConstantMethodTypeInfo.md)
+
+### [CONSTANT_InvokeDynamic_info 结构](ConstantInvokeDynamicInfo.md)
