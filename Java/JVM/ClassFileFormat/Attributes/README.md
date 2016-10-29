@@ -50,3 +50,5 @@ u1 info[attribute_length];
 * 如果 Java 虚拟机实现支持的 Class 文件的版本号为 51.0 或更高时，它的 Class 文件加载器必须正确的识别和读取 BootstrapMethods 属性。
 * 对于剩余的预定义属性的使用不受限制；如果剩余的预定义属性包含虚拟机可识别的信息， Class 文件加载器就可以选择使用这些信息，否则可以选择忽略它们。 
 
+
+### [自定义和命名新的属性](CustomizeAndNameNewProperties.md)
