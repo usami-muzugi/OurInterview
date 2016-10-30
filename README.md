@@ -33,7 +33,7 @@
 
 # Version
 
-1.3.105.20161029_release
+1.3.106.20161030_release
 
 # License
 
