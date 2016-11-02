@@ -62,3 +62,7 @@ u1 info[attribute_length];
 ### [Exceptions属性](Exceptions.md)
 
 ### [InnerClasses属性](InnerClasses.md)
+
+### [EnclosingMethod属性](EnclosingMethod.md)
+
+### [Synthetic属性](Synthetic.md)
