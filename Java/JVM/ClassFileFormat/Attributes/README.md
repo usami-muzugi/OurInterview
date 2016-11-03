@@ -70,3 +70,5 @@ u1 info[attribute_length];
 ### [Signature属性](Signature.md)
 
 ### [SourceFile属性](SourceFile.md)
+
+### [SourceDebugExtension属性](SourceDebugExtension.md)
