@@ -72,3 +72,9 @@ u1 info[attribute_length];
 ### [SourceFile属性](SourceFile.md)
 
 ### [SourceDebugExtension属性](SourceDebugExtension.md)
+
+### [LineNumberTable 属性](LineNumberTable.md)
+
+### [LocalVariableTable 属性](LocalVariableTable.md)
+
+### [LocalVariableTypeTable 属性](LocalVariableTypeTable.md)
