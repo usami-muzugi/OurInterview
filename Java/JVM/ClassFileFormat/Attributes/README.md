@@ -84,3 +84,5 @@ u1 info[attribute_length];
 ### [RuntimeInvisibleAnnotations 属性](RuntimeInvisibleAnnotations.md)
 
 ### [RuntimeVisibleParameterAnnotations 属性](RuntimeVisibleParameterAnnotations.md)
+
+### [RuntimeInvisibleParameterAnnotations 属性](RuntimeInvisibleParameterAnnotations.md)
