@@ -80,3 +80,7 @@ u1 info[attribute_length];
 ### [LocalVariableTypeTable 属性](LocalVariableTypeTable.md)
 
 ### [Deprecated 属性](Deprecated.md)
+
+### [RuntimeInvisibleAnnotations 属性](RuntimeInvisibleAnnotations.md)
+
+### [RuntimeVisibleParameterAnnotations 属性](RuntimeVisibleParameterAnnotations.md)
