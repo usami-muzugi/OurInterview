@@ -88,3 +88,5 @@ u1 info[attribute_length];
 ### [RuntimeInvisibleParameterAnnotations 属性](RuntimeInvisibleParameterAnnotations.md)
 
 ### [AnnotationDefault 属性](AnnotationDefault.md)
+
+### [BootstrapMethods 属性](BootstrapMethods.md)
