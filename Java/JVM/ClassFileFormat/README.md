@@ -24,3 +24,5 @@
 ### [格式检查](FormatCheck.md)
 
 ### [Java虚拟机代码约束](VirtualMachineCodeConstraints)
+
+### [Class 文件校验](ClassHashtab)
