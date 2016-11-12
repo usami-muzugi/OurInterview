@@ -23,3 +23,5 @@
 Java 虚拟机可以使用两种不同的检查策略：类型检查验证和类型推导验证。对于版本号大于或等于 50.0 的 Class 文件，规定必须使用类型检查验证。由于验证版本号小于 50.0 的 Class 文件的需要，类型推导验证必须被除使用于 Java MECLDC 和 Java Card 平台的虚拟机外的所有虚拟机实现所支持。 使用于 Java ME CLDC 和 Java Card 平台的虚拟机要遵循它们自身的规范。 
 
 ### [类型检查验证](TypeCheckingAndVerification.md)
+
+### [类型推导验证](TypeDerivationValidation)
