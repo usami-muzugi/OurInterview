@@ -7,3 +7,5 @@
 ### [字节码验证器](BytecodeVerifier.md)
 
 ### [long 和 double 类型的值](ValuesOfLongAndDoubleTypes.md)
+
+### [实例初始化方法与创建对象](InstanceInitializationMethodAndObject.md)
