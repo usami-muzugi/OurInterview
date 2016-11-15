@@ -26,3 +26,5 @@
 ### [Java虚拟机代码约束](VirtualMachineCodeConstraints)
 
 ### [Class 文件校验](ClassHashtab)
+
+### [Java 虚拟机限制](Limit.md)
