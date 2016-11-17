@@ -6,3 +6,5 @@ Java 虚拟机动态地加载、链接与初始化类和接口。加载是根据
 ### [运行时常量池](RuntimeConstantPool.md)
 
 ### [虚拟机启动](Startup.md)
+
+### [创建和加载](CreateAndLoad)
