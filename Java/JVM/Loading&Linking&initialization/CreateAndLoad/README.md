@@ -27,3 +27,5 @@ Java 虚拟机通过下面三个过程中之一来创建标记为 N 的类或接
 我们通常使用标识<N， Ld>来表示一个类或接口，这里的 N 表示类或接口的名称， Ld 表示类或接口的定义类加载器。我们也可以使用标识 N Li 来表示一个类或接口，这里的 N 表示类或接口的名称， Li 表示类或接口的初始类加载器。 
 
 ### [使用引导类加载器来加载类型](TheUseOfTheBootstrapClassLoaderToLoadType.md)
+
+### [使用用户自定义类加载器来加载类型](TheUseOfACustomClassLoaderToLoadType.md)
