@@ -31,3 +31,6 @@ Java 虚拟机通过下面三个过程中之一来创建标记为 N 的类或接
 ### [使用用户自定义类加载器来加载类型](TheUseOfACustomClassLoaderToLoadType.md)
 
 ### [创建数组类](CreateArrayClass.md)
+
+### [加载限制](LoadingConstraints.md)
+
