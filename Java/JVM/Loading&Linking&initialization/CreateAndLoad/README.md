@@ -34,3 +34,4 @@ Java 虚拟机通过下面三个过程中之一来创建标记为 N 的类或接
 
 ### [加载限制](LoadingConstraints.md)
 
+### [从 Class 文件中获取类](GetAClassFromTheClassFile.md)
