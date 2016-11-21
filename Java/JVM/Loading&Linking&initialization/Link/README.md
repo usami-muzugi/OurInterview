@@ -11,3 +11,5 @@
 由于链接过程会涉及到新数据结构的内存分配，它也可能因为发生OutOfMemoryError 异常而导致失败。 
 
 ### [验证](Verification.md)
+
+### [准备](Preparation.md)
