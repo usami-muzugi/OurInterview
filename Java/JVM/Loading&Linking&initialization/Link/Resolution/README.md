@@ -18,8 +18,4 @@ Java 虚拟机指令 anewarray、 checkcast、 getfield、 getstatic、 instance
 
 后续各章节将描述对于类或接口 D 的运行时常量池（ §5.1） 中的符号引用进行解析的过程。解析细节会因为符号引用类型的不同而有所区别。 
 
-
-
-
-
-
+### [类与接口解析](ClassAndInterfaceAnalysis.md)
