@@ -27,3 +27,5 @@ Java 虚拟机指令 anewarray、 checkcast、 getfield、 getstatic、 instance
 ### [接口方法解析](InterfaceMethodAnalysis.md)
 
 ### [方法类型与方法句型解析](MethodTypeAndMethodHandle.md)
+
+### [调用点限定符解析](CallPointQualifierResolution.md)
