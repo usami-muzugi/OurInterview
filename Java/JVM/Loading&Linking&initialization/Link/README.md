@@ -15,3 +15,7 @@
 ### [准备](Preparation.md)
 
 ### [解析](Resolution)
+
+### [访问控制](AccessControl.md)
+
+### [方法覆盖](MethodOverride.md)
