@@ -14,3 +14,5 @@ Java 虚拟机动态地加载、链接与初始化类和接口。加载是根据
 ### [初始化](Initialization.md)
 
 ### [绑定本地方法实现](Binding.md)
+
+### [Java 虚拟机退出](Exit.md)
